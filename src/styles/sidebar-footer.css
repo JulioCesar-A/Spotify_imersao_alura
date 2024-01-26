@@ -20,7 +20,6 @@ body {
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
-
 .sidebar__navigation .logo img {
     width: 80px;
 }
@@ -55,7 +54,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 .library .library__button {
     display: flex;
     margin-right: 10px;
@@ -123,22 +121,18 @@ body {
     width: 113px;
     margin-top: 12px;
 }
-
 .sidebar .cookies {
     margin: 25px 20px;
 }
-
 .sidebar .cookies a {
     color: #b3b3b3;
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
 }
-
 .sidebar .cookies a:hover {
     text-decoration: underline;
 }
-
 .languages .languages__button {
     align-items: center;
     background-color: transparent;
@@ -151,3 +145,49 @@ body {
     margin: 8px;
     border-radius: 20px;
   }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background: linear-gradient(to right, #6699ff, #BF55EC);
+}
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 20px 10px;
+}
+.footer__content .footer__content__texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+}
+.footer__content .footer__content__texts .text {
+   font-family: "DM Sans", sans-serif;
+   color: #fff;
+}
+.footer__content .footer__content__texts .title {
+   font-weight: 700;
+}
+.footer__content .footer__content__texts .subtitle {
+   font-weight: 500;
+   font-size: 14px;
+}
+.footer__content .footer__button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 133px;
+    margin-top: 12px;2px;
+}
